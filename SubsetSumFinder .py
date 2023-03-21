@@ -18,7 +18,7 @@ def subsetSumFinder(A, d):
 
 
 if __name__ == '__main__':
-    print("Enter an array of numbers")
+    print("Enter an array of numbers:")
     array = input().split()
     array = [int(num) for num in array]
     sum_array = int(input("Enter sum \n"))
